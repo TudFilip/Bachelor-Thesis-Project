@@ -1,6 +1,6 @@
-# Bachelor-Thesis-Project
+# MovieFinder
 
-The main goal of the thesis was to create an artificial intelligence system capable of recognizing a user-entered sequence from an unknown movie to identify the movie title. The AI system is based on 6 models of convolutional neural networks, 4 of them being made using pretrained models (VGG16, InceptionV3 and ResNet50), and the other 2 being made using an own architecture structure.
+This is my bachelor project done at the end of the Faculty of Computer Science, Iasi. The main goal of the thesis was to create an artificial intelligence system capable of recognizing a user-entered sequence from an unknown movie to identify the movie title. The AI system is based on 6 models of convolutional neural networks, 4 of them being made using pretrained models (VGG16, InceptionV3 and ResNet50), and the other 2 being made using an own architecture structure.
 
 The structure of the repo's branches:
 * **ai_system** -> AI system consisting of the 6 convolutional neural network models
