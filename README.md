@@ -4,6 +4,6 @@ The main goal of the thesis was to create an artificial intelligence system capa
 
 The structure of the repo's branches:
 * **ai_system** -> AI system consisting of the 6 convolutional neural network models
-* **movies_preprocessin** -> The system used to create the training/test dataset from 10 movies
+* **movies_preprocessing** -> The system used to create the training/test dataset from 10 movies
 * **web_application** -> Web application that allows a user to upload a movie clip and receive the title of that clip as a response
 * **plots** -> Python scripts used to create result-based plots
