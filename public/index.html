@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MovieFinder</title>
+</head>
+
+<body>
+    <header>
+        <h1>MovieFinder</h1>
+    </header>
+    <form enctype="multipart/form-data" method="post" id="predict-movies-form"> 
+        <label for="video" class="file-upload">
+            <input type="file" id="video" name="video" accept="video/mp4" hidden>
+            <span id="file-label">Upload a video sequence</span>
+        </label>
+        <div class="buttons">
+            <button type="submit" class="action-btn" id="all-models-btn" data-tooltip="This could take some time!" disabled>All Models</button>
+            <button type="submit" class="action-btn" disabled>Custom Model 3D</button>
+            <button type="submit" class="action-btn" disabled>Custom Model 2D</button>
+            <button type="submit" class="action-btn" disabled>InceptionV3</button>
+            <button type="submit" class="action-btn" disabled>ResNet50</button>
+            <button type="submit" class="action-btn" disabled>VGG16 1</button>
+            <button type="submit" class="action-btn" disabled>VGG16 2</button>
+        </div>
+    </form>
+    <section class="response">
+        <h3>Our predictions:</h3>
+        <ul class="response-list"></ul>
+    </section>
+    <div class="loading-animation" hidden>Loading...</div>
+    <div class="toast" hidden>We found your movie! We hope this will help you!</div>
+</body>
+
+</html>
